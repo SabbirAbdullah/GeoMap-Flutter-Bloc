@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:map/app/map/%20view/map_view.dart';
+
+import 'app/modules/map/ view/map_view.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -11,7 +12,7 @@ class Home extends StatelessWidget {
         child:  TextButton(onPressed: (){
           Navigator.push(context,MaterialPageRoute(builder: (context) =>MapPage()));
         },
-            child: Center(child: Text("Map")) )
+            child: Center(child: Text("Geo Map")) )
       ),
     );
   }

@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'app/map/ view/map_view.dart';
-import 'app/map/bloc/map_bloc.dart';
+import 'app/modules/map/ view/map_view.dart';
+import 'app/modules/map/bloc/map_bloc.dart';
 import 'home.dart';
 
 void main() {
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
 
-        title: 'Flutter OSM BLoC',
+        title: 'Geo Map',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.teal),
         home: Home(),

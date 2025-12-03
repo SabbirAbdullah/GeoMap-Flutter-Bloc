@@ -478,13 +478,6 @@ import 'package:geolocator/geolocator.dart';
 
 import 'dart:async';
 
-import 'package:flutter/material.dart';
-import 'package:flutter_map/flutter_map.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:latlong2/latlong.dart';
-import 'package:dio/dio.dart';
-import 'package:flutter_polyline_points/flutter_polyline_points.dart';
-
 class MapPage extends StatefulWidget {
   @override
   State<MapPage> createState() => _MapPageState();
